@@ -1,0 +1,22 @@
+version = "1.0"
+
+[task]
+name = "rise/swe-bench-django-11099"
+
+[metadata]
+difficulty = "easy"
+category = "software-engineering"
+tags = ["swe-bench-lite", "django", "bug-fix"]
+
+[verifier]
+timeout_sec = 900.0
+
+[agent]
+timeout_sec = 1800.0
+
+[environment]
+build_timeout_sec = 1800.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 20480
+gpus = 0
